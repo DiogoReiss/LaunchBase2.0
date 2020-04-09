@@ -97,15 +97,18 @@ header div a:hover {
    grid-template-columns: 1fr 1fr 1fr;
    gap: 10px;
    font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: rgb(160, 185, 255);
 }
 #card:hover {
-   background-color: rgba(3, 49, 175, 0.830);
+   background-color: rgba(160, 185, 255, 0.548);
    transition: 0.5s;
+   color: #ffff
 
 }
 
 #card {
-   background-color: rgba(3, 49, 175, 0.4);
+   background-color: #ffff;
    border-radius: 10px;
    padding: 20px
 }
