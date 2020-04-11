@@ -128,3 +128,10 @@ header div a:hover {
    text-align: center;
    padding: 24px;
 }
+
+/*=== ERROR PAGE ===*/
+
+header Error {
+   display: center auto;
+   padding: 30 auto
+}
