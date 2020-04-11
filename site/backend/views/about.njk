@@ -6,39 +6,21 @@
 </div>
 
 <section id="cards">
+
+   {% for item in items%}
    <div id="card">
       <div class="card__image-container">
-         <img src="nodejslogo.png" alt="node.js">
+         <img src="{{item.img}}" alt="Imagem de {{item.title}}">
       </div>
       <div class="card__content">
-         <p>Backend em Node.js</p>
+         <p>{{item.title}}</p>
       </div>
       <div class="card__info">
-         Domino basicamente a linguagem javascript e já possuo conhecimentos em node.js
+         {{item.info}}
       </div>
    </div>
-   <div id="card">
-      <div class="card__image-container">
-         <img src="nodejslogo.png" alt="node.js">
-      </div>
-      <div class="card__content">
-         <p>Backend em Node.js</p>
-      </div>
-      <div class="card__info">
-         Domino basicamente a linguagem javascript e já possuo conhecimentos em node.js
-      </div>  
-   </div>       
-   <div id="card">
-      <div class="card__image-container">
-         <img src="nodejslogo.png" alt="node.js">
-      </div>
-      <div class="card__content">
-         <p>Backend em Node.js</p>
-      </div>
-      <div class="card__info">
-         Domino basicamente a linguagem javascript e já possuo conhecimentos em node.js
-      </div>
-   </div>
+
+   {% endfor %}
 </section>
 
 {% endblock %}
