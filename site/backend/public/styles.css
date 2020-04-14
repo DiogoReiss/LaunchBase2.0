@@ -119,6 +119,7 @@ header div a:hover {
    height: 150px;
    display: flex;
    align-items: center;
+   border-radius: 50%;
 }
 
 .card__content {
