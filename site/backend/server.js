@@ -25,5 +25,5 @@ server.get("*", function(req, res) {
 });
 
 server.listen(5000, function() {
-   console.log("Server is running!")
+   console.log("O mundo gira e o server roda vacilão!")
 });

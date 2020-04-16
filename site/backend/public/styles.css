@@ -8,6 +8,7 @@ body {
    background: #ffff
 }
 header {
+   display: block;
    padding: 20px;
    background: rgba(3, 49, 175, 0.432);
    text-align: right;
@@ -23,7 +24,6 @@ header div a {
 }
 header div a:hover {
    color: rgb(60, 112, 255);
-   font-size: 18.5px;
    transition: 0.25s;
 }
 
@@ -50,8 +50,6 @@ header div a:hover {
 
 #wrapper:hover {
    background: rgba(160, 185, 255, 0.548);
-   width: 402px;
-   height: 430px;
    transition: 0.5s;
 }
 
@@ -103,8 +101,7 @@ header div a:hover {
 #card:hover {
    background-color: rgba(160, 185, 255, 0.548);
    transition: 0.5s;
-   color: #ffff
-
+   color: rgba(3, 49, 175, 1)
 }
 
 #card {
@@ -132,7 +129,9 @@ header div a:hover {
 
 /*=== ERROR PAGE ===*/
 
-header Error {
-   display: center auto;
-   padding: 30 auto
+.Error {
+   display: block;
+   margin-top: 15%;
+   padding: 0 auto;
+   text-align: center
 }
